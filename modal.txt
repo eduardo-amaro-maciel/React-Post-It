@@ -1,0 +1,42 @@
+<div btn_ref="modal-new-post-it" className='hidden'>
+                                <h1 className="text-3xl">Novo Post-it</h1>
+                                <input type="text" maxLength={56} placeholder="Breve descrição do post-it" onChange={e => handleDescribeNewPostIt(e)}
+                                    className="w-full border-2 p-3 rounded focus:outline-none"
+                                />
+
+                                <div className="flex gap-10 mb-14 justify-center mt-5">
+                                    <div>
+                                        <p className="mb-5">Cor do cartão</p>
+                                        <div className="flex gap-5 p-2 rounded border-2">
+                                            <label>
+                                                <input defaultChecked={true} type="radio" name="color-card" value="color-gray" onChange={e => setColorPostIt(e.target.value)}
+                                                    className="hidden peer"
+                                                />
+                                                <div className="h-8 w-8 rounded-full bg-gray shadow-inner peer-checked:border-4 border-white outline-2 outline"></div>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="color-card" value="color-secondery" onChange={e => setColorPostIt(e.target.value)}
+                                                    className="hidden peer"
+                                                />
+                                                <div className="h-8 w-8 rounded-full bg-secondery shadow-inner peer-checked:border-4 border-white outline-2 outline"></div>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="color-card" value="color-primary" onChange={e => setColorPostIt(e.target.value)}
+                                                    className="hidden peer"
+                                                />
+                                                <div className="h-8 w-8 rounded-full bg-primary shadow-inner peer-checked:border-4 border-white outline-2 outline"></div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div className="flex-1">
+                                        <label htmlFor="modal-select-status">Status</label>
+                                        <select name="modal-select-status" onChange={e => setStatusPostIt(e.target.value)}
+                                            className="w-full mt-5 p-3 rounded border-2"
+                                        >
+                                            <option value="">Feito</option>
+                                            <option value="">Pendente</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="button" className="btn-primary" onClick={e => console.log('a')}>Salvar</button>
+                            </div>

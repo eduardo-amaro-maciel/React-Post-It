@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: 'Poppins';}
+
+:root {
+    --bg-login: url('../public/img/bg-login.jpeg');
+    --bg-dashboard: url('../public/img/bg-dash.svg');
+    --bg-lupa: url('../public/img/lupa.png');
+}
+
+@layer components {
+    .btn-primary {
+        @apply w-full p-[.90rem] bg-secondery text-white rounded-lg border-secondery text-xl
+    }
+
+    .btn-secondery {
+        @apply  w-full p-[.90rem] bg-transparent text-secondery rounded-lg border-2 border-secondery text-xl
+    }
+
+    .input-primary {
+        @apply w-full p-[.90rem] bg-gray text-secondery rounded-lg border-0 text-xl placeholder:text-secondery
+    }
+
+    .btn-no-border {
+        @apply  w-full p-[.90rem] bg-transparent text-secondery rounded-lg text-xl text-center
+    }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
