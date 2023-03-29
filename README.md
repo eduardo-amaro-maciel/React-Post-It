@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Venho aqui compartilhar com vocês um miniprojeto que desenvolvi recentemente usando React, Tailwind e Supabase.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O uso dessas tecnologias resultou num projeto que não apenas funciona de forma eficiente, mas também é fácil de usar e visualmente atraente.
 
-## Available Scripts
+Em si, podemos assimilar a aplicação a um todo-list por isso troquei para post-it haha..., mas por baixo dos panos implementei algumas das ideias que estava guardando para algum projeto.
 
-In the project directory, you can run:
+Algumas das ideias que estão presentes nesse projeto são:
 
-### `npm start`
+- Uso do Supabase (alternativa ao Firebase)
+- Uso do realtime database
+- Uso de login e autenticação do Google fornecida pelo Supabase 
+- Uso do React router v6 para proteção de rotas
+- Uso do Tailwind que não havia usado em maior escala (muito bom por sinal)
+- Uso de hooks não tão usados do React: fowardRef, useimperativehandle, cretePortal
+- Uso da Vercel para deploys pois usava o netlify
+- Uso de Kanban para noção do que esta pendente para o desenvolvimento
+- Criação de layout e mentalidade de design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Link do projeto: https://lnkd.in/dxyn9HQi
+Link do repo: https://lnkd.in/dfjEeih2
+Link mockup original do projeto: https://lnkd.in/d-zcSEBe
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+OBS: A aplicação pode conter alguns pequenos bugs, pois não cheguei a testar a fundo, pois como dito tentei contemplar algumas ideias que estava guardando.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ADD: Próximo passo será o uso de middlewares do Next.js com Supabase para maior garantia de segurança, SEO e performance.
