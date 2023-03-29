@@ -16,10 +16,4 @@ Algumas das ideias que estão presentes nesse projeto são:
 - Uso de Kanban para noção do que esta pendente para o desenvolvimento
 - Criação de layout e mentalidade de design
 
-Link do projeto: https://lnkd.in/dxyn9HQi
-Link do repo: https://lnkd.in/dfjEeih2
-Link mockup original do projeto: https://lnkd.in/d-zcSEBe
-
 OBS: A aplicação pode conter alguns pequenos bugs, pois não cheguei a testar a fundo, pois como dito tentei contemplar algumas ideias que estava guardando.
-
-ADD: Próximo passo será o uso de middlewares do Next.js com Supabase para maior garantia de segurança, SEO e performance.
