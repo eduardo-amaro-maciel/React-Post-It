@@ -1,5 +1,5 @@
 Venho aqui compartilhar com vocês um miniprojeto que desenvolvi recentemente usando React, Tailwind e Supabase.
-
+ 
 O uso dessas tecnologias resultou num projeto que não apenas funciona de forma eficiente, mas também é fácil de usar e visualmente atraente.
 
 Em si, podemos assimilar a aplicação a um todo-list por isso troquei para post-it haha..., mas por baixo dos panos implementei algumas das ideias que estava guardando para algum projeto.
